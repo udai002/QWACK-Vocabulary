@@ -3,14 +3,20 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import Navbar from './Components/Navbar'
+import Vocabulary from './Components/Vocabulary'
+import Footer from './Components/Footer'
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className='z-40'>
+      <Navbar />
+    </div>
+      <Vocabulary/>
+      <Footer/>
     </>
   )
 }

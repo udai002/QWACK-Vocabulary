@@ -1,0 +1,8 @@
+.sun{
+    /* background-image: radial-gradient(#FFA600 70%, #FFD000 30%); */
+    /* background-image: radial-gradient(#FFA600 10%,  #FFD000 20%); */
+    /* border: #FFD000 5px solid; */
+    border-radius: 50%;
+    background: orange;
+    box-shadow: 0 0 10px orange, 0 0 60px orange, 0 0 200px #ff0, inset 0 0 80px #ff0;
+}
